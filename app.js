@@ -20,7 +20,7 @@ app.use(helmet());
 app.use(compression());
 
 const api = process.env.API_URL;
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(morgan("tiny"));
