@@ -1,6 +1,6 @@
 # 📦 E-commerce Backend API
 
-This repository provides a backend API for an e-commerce platform, built using Node.js and Express. The API facilitates essential e-commerce operations such as product management, user authentication, and order processing.
+This repository provides a backend API for an e-commerce platform, built using Node.js and Express. The API facilitates essential e-commerce operations such as product management.
 
 ## ⚙️ Project Structure
 
@@ -25,7 +25,11 @@ To set up the project locally, follow these steps:
 
    ```bash
    npm install
-3. **Start the server:**
+3. **Configure environment variables:**
+
+Create a .env file in the root directory and add the MONGO_SRV environment variable.
+
+4. **Start the server:**
 
    ```bash
    npm start
