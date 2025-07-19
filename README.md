@@ -7,6 +7,7 @@ This repository provides a backend API for an e-commerce platform, built using N
 The project is organized into the following directories:
 
 - `middlewares/`: Contains middleware functions for request processing.
+- `controllers/`: Contains logic for handling requests and responses
 - `models/`: Defines the data models for the application.
 - `routes/`: Specifies the API endpoints and their handlers.
 
